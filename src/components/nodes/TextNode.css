@@ -1,0 +1,106 @@
+.text-node {
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    min-width: 200px;
+    max-width: 250px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.text-node:hover {
+    border-color: #d1d5db;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.text-node.selected {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.node-content {
+    padding: 12px;
+}
+
+.node-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.node-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: #eff6ff;
+    color: #3b82f6;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.node-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.node-body {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.message-text {
+    font-size: 14px;
+    color: #374151;
+    line-height: 1.4;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+/* Handle styles */
+.node-handle {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #6b7280;
+    background: white;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.node-handle:hover {
+    border-color: #3b82f6;
+    background: #eff6ff;
+    transform: scale(1.2);
+}
+
+.target-handle {
+    left: -6px;
+}
+
+.source-handle {
+    right: -6px;
+}
+
+/* Connection validation styles */
+.react-flow__handle-connecting {
+    background: #3b82f6 !important;
+}
+
+.react-flow__handle-valid {
+    background: #10b981 !important;
+    border-color: #10b981 !important;
+}
+
+.react-flow__handle-invalid {
+    background: #ef4444 !important;
+    border-color: #ef4444 !important;
+}
