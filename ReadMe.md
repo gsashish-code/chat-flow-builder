@@ -4,6 +4,8 @@ A React-based visual flow builder for creating chatbot conversation flows using 
 
 ## ✨ Features
 
+[**View Live Application**](https://chat-flow-builder-flame.vercel.app)
+
 ### Core Functionality
 
 - **Visual Flow Builder**: Drag-and-drop interface for building chatbot flows
@@ -33,3 +35,5 @@ A React-based visual flow builder for creating chatbot conversation flows using 
 - **Icons**: Lucide React
 - **Styling**: CSS Modules
 - **Language**: JavaScript (ES6+)
+
+## 📁 Project Structure
