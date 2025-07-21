@@ -33,5 +33,3 @@ A React-based visual flow builder for creating chatbot conversation flows using 
 - **Icons**: Lucide React
 - **Styling**: CSS Modules
 - **Language**: JavaScript (ES6+)
-
-## 📁 Project Structure
